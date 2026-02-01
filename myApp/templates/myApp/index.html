@@ -2,12 +2,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="{% static 'myApp/styles.css' %}">
+  <meta charset="UTF-8" />
+  <title>Victor James | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    testing testing, this is my portfolios homepage.
+
+<header class="nav">
+  <div class="logo">VJ</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Works</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hey, I’m Victor James</h1>
+      <p class="subtitle">
+        Software Developer & Aspiring Aviator crafting clean, functional digital experiences.
+      </p>
+
+      <div class="hero-actions">
+        <a href="contact.html" class="btn primary">Contact Me</a>
+        <a href="projects.html" class="btn secondary">View Work</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/victor.jpg" alt="Victor James">
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  © 2026 Victor James
+</footer>
+
 </body>
 </html>
