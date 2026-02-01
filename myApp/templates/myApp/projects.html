@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects | Victor James</title>
+  <link rel="stylesheet" href="{% static 'myApp/styles.css' %}">
+</head>
+<body>
+
+<header class="nav">
+  <div class="logo">VJ</div>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="/projects/" class="active">Works</a>
+    <a href="/contact/">Contact</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <h1>Selected Projects</h1>
+  <p class="lead">
+    A few projects that reflect my interests in structure, usability,
+    and real-world problem solving.
+  </p>
+
+  <div class="grid">
+
+    <div class="card purple">
+      <h3>Optima</h3>
+      <p>
+        A focused productivity and notes application designed to
+        reduce friction and improve clarity.
+      </p>
+      <span class="tag">React · UX-focused</span>
+    </div>
+
+    <div class="card dark">
+      <h3>REALITY</h3>
+      <p>
+        A desktop property management system built with scalability
+        and real business workflows in mind.
+      </p>
+      <span class="tag">Python · Desktop App</span>
+    </div>
+
+    <div class="card light">
+      <h3>Solstice Properties</h3>
+      <p>
+        A clean, responsive property showcase website built
+        from scratch with attention to layout and presentation.
+      </p>
+      <span class="tag">HTML · CSS · UI</span>
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="footer">
+  © 2026 Victor James
+</footer>
+
+</body>
+</html>
