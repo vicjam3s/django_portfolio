@@ -1,11 +1,20 @@
 :root {
-  --bg: #f2f2f2;
-  --card: #ffffff;
-  --text: #0f172a;
-  --muted: #64748b;
-  --accent: #6c63ff;
-  --radius: 18px;
+  --bg-main: #f3f4f6;
+  --bg-card: #ffffff;
+
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+
+  --accent-purple: #6c63ff;
+  --accent-blue: #38bdf8;
+  --accent-yellow: #facc15;
+
+  --radius-lg: 24px;
+  --radius-md: 16px;
+
+  --shadow-soft: 0 10px 30px rgba(0,0,0,0.08);
 }
+
 
 * {
   box-sizing: border-box;
