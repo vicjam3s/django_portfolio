@@ -2,15 +2,15 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    return render(request, 'myApp/index.html')
+    return render(request, 'pages/index.html')
 
 def about(request):
-    return render(request, 'myApp/about.html')
+    return render(request, 'pages/about.html')
 
 
 def projects(request):
-    return render(request, 'myApp/projects.html')
+    return render(request, 'pages/projects.html')
 
 
 def contact(request):
-    return render(request, 'myApp/contacts.html')
+    return render(request, 'pages/contacts.html')

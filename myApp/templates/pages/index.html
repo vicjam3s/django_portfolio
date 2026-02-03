@@ -1,0 +1,47 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+
+{% block title %}Home | Victor James{% endblock %}
+
+{% block content %}
+<div class="container">
+  <section class="hero">
+
+    <div class="hero-text">
+      <h1>
+        Hey, I’m <span class="highlight">Victor James</span>
+      </h1>
+
+      <h2 class="role">
+        Software Developer · Problem Solver · Aviation Enthusiast
+      </h2>
+
+      <p class="subtitle">
+        I design and build reliable, user-focused applications with a strong
+        emphasis on clean architecture, thoughtful UI, and real-world usability.
+      </p>
+
+      <p class="subtitle">
+        From backend systems in Python & Django to modern frontend layouts,
+        I enjoy turning complex ideas into simple, effective digital solutions.
+      </p>
+
+      <ul class="hero-highlights">
+        <li> Clean, maintainable code</li>
+        <li> Design-aware development</li>
+        <li> Real-world, scalable projects</li>
+      </ul>
+
+      <div class="hero-actions">
+        <a href="/contact/" class="btn primary">Contact Me</a>
+        <a href="/projects/" class="btn secondary">View My Work</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="{% static 'myApp/images/victor2.jpg' %}" alt="Victor James">
+    </div>
+
+  </section>
+</div>
+{% endblock %}
